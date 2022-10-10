@@ -11,7 +11,7 @@ const Quiz = () => {
             <div>
                 <h1 className='text-5xl font-semibold text-slate-900 text-center m-5'>Develop Your Knowledge About Web Developmnet</h1>
             </div>
-            <div className='flex gap-5 m-10'>
+            <div className='flex gap-5 m-10 flex-col md:flex-row'>
                 {
                     SubjectArray.map(subject => <Subject
                         key={subject.id}
