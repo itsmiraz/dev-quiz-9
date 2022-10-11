@@ -12,15 +12,15 @@ const SimpleAreaChart = () => {
 
 
     return (
-        <ResponsiveContainer width="100%" height="100%">
+        <ResponsiveContainer className="bg-white rounded-lg " width="100%" height="100%">
             <BarChart
-                width={500}
+                width={300}
                 height={300}
                 data={SubjectArray}
                 margin={{
-                    top: 5,
-                    right: 30,
-                    left: 20,
+                    top: 10,
+                    right: 10,
+                    left: 10,
                     bottom: 5,
                 }}
             >
@@ -30,6 +30,7 @@ const SimpleAreaChart = () => {
                 <Tooltip />
                 <Legend />
                 <Bar dataKey="total" fill="#1F2937" />
+
             </BarChart>
         </ResponsiveContainer>
     );
