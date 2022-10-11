@@ -1,9 +1,14 @@
 import React from 'react';
-import { BeakerIcon, ArrowRightIcon } from '@heroicons/react/24/solid'
+import { ArrowRightIcon } from '@heroicons/react/24/solid'
+import { useNavigate } from 'react-router-dom';
 
 const Subject = ({ subject }) => {
-    console.log(subject);
-    const { name, logo, total } = subject
+    const { name, logo, total, id } = subject
+
+    const navigate = useNavigate();
+    const handleNavigate = () => {
+        navigate(`/quiz/${id}`)
+    }
     return (
         <div>
             <div className="max-w-xs p-6 rounded-md shadow-md dark:bg-gray-800 hover:bg-gray-900 transition dark:text-gray-50">
@@ -12,7 +17,7 @@ const Subject = ({ subject }) => {
                     <span className="block text-xs font-medium tracking-widest uppercase dark:text-violet-400">{name}</span>
                     <p>Total Quiz: {total}</p>
                 </div>
-                <button className="bg-gray-600 rounded px-4 items-center flex">
+                <button onClick={handleNavigate} className="bg-gray-600 rounded px-4 items-center flex">
                     <span className='mr-1'>Start Quiz </span>
                     <ArrowRightIcon className="h-5 w-5 " /></button>
             </div>

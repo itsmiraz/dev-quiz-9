@@ -9,7 +9,7 @@ const Quiz = () => {
     return (
         <div>
             <div>
-                <h1 className='text-5xl font-semibold text-slate-900 text-center m-5'>Develop Your Knowledge About Web Developmnet</h1>
+                <h1 className='text-5xl text-white font-semibold  text-center m-5'>Develop Your <span className='bg-slate-900'>Knowledge</span> About Web <span className='bg-slate-900'>Developmnet</span></h1>
             </div>
             <div className='flex gap-5 m-10 flex-col md:flex-row'>
                 {
