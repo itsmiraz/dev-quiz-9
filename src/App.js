@@ -38,13 +38,14 @@ function App() {
         {
           path: '/blogs',
           element: <Blogs></Blogs>
+        },
+        {
+          path: '*',
+          element: <ErrorPage></ErrorPage>
         }
       ]
-    },
-    {
-      path: '*',
-      element: <ErrorPage></ErrorPage>
     }
+
   ])
   return (
     <div className="App">
