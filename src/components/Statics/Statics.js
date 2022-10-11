@@ -1,6 +1,4 @@
-import React, { useContext } from 'react';
-import { SubjectContext } from '../../Layout/Main';
-import Rechart from '../Rechart/Rechart';
+import React from 'react';
 import SimpleAreaChart from '../SimpleAreaChart/SimpleAreaChart';
 import './Statics.css'
 

@@ -18,19 +18,18 @@ const SimpleAreaChart = () => {
                 height={300}
                 data={SubjectArray}
                 margin={{
-                    top: 10,
+                    top: 5,
                     right: 10,
                     left: 10,
                     bottom: 5,
                 }}
             >
                 <CartesianGrid strokeDasharray="3 3" />
-                <XAxis stroke="#1F2937" dataKey="name" />
+                <XAxis width="10" stroke="#1F2937" dataKey="name" />
                 <YAxis stroke="#1F2937" />
                 <Tooltip />
                 <Legend />
                 <Bar dataKey="total" fill="#1F2937" />
-
             </BarChart>
         </ResponsiveContainer>
     );
