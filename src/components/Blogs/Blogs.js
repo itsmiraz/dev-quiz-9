@@ -6,7 +6,7 @@ const Blogs = () => {
 
             <h1 className='text-4xl text-white my-10 text-center font-semibold'>Frequently Asked <span className='bg-slate-900'>Questions</span></h1>
 
-            <div className=' px-20 my-10'>
+            <div className=' md:px-20 px-4 my-10'>
                 <div className='my-10'>
                     <div className="flex items-center text-3xl font-semibold text-white">
                         <h1 className='text-3xl my-2 bg-slate-900'>Q1:</h1>
