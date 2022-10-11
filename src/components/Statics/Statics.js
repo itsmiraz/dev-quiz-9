@@ -16,6 +16,7 @@ const Statics = () => {
 
                         So we Bring some Latest Quiz About Web Development where you can check yourself.
                     </p>
+                    <h1 className='text-4xl my-4'>Here you can see How many <span className="bg-slate-900">Quiz</span> we have of each topics</h1>
                 </div>
                 <div id='container' className='z-10 flex justify-center md:ml-14' >
                     <SimpleAreaChart></SimpleAreaChart>

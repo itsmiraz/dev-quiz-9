@@ -26,7 +26,7 @@ const Navbar = () => {
                     ></Route>)
                 }
             </ul>
-            <div onClick={() => setOpen(!open)} className="h-6  bg-slate-700 text-white w-6 mr-3 md:hidden" >
+            <div onClick={() => setOpen(!open)} className="h-6  bg-slate-900 text-white w-6 mr-3 md:hidden" >
                 {open ? <XMarkIcon />
                     : <Bars3Icon />
                 }

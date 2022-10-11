@@ -10,10 +10,10 @@ const Home = () => {
                 <section className=" dark:text-gray-100">
                     <div className="container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-around">
                         <div className="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
-                            <h1 className='text-5xl  font-bold '>Welcome To
+                            <h1 className='md:text-6xl text-4xl  font-bold '>Welcome To
 
                                 <br />
-                                <span className='text-4xl mt-6  bg-slate-900'>
+                                <span className='md:text-5xl text-4xl mt-6  bg-slate-900'>
                                     DEV Quiz
                                 </span>
                             </h1>
