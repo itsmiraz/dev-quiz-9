@@ -7,7 +7,7 @@ const Home = () => {
         <div>
             <div >
 
-                <section className=" dark:text-gray-100">
+                <section className=" text-gray-100">
                     <div className="container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-around">
                         <div className="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
                             <h1 className='md:text-6xl text-4xl  font-bold '>Welcome To
@@ -22,8 +22,8 @@ const Home = () => {
                                 <br />
                             </p>
                             <div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
-                                <Link to='/quiz' className="px-8 py-3 text-lg font-semibold rounded dark:bg-slate-900 hover:border hover:dark:border-gray-100  hover:bg-transparent  ">Start Quiz</Link >
-                                <Link to='/blogs' className="px-8 py-3 text-lg font-semibold border  rounded dark:border-gray-100">Watch Blogs</Link>
+                                <Link to='/quiz' className="px-8 py-3 text-lg font-semibold rounded bg-slate-900 hover:border hover:border-gray-100  hover:bg-transparent  ">Start Quiz</Link >
+                                <Link to='/blogs' className="px-8 py-3 text-lg font-semibold border  rounded border-gray-100">Watch Blogs</Link>
                             </div>
                         </div>
                         <div className="flex items-center justify-center p-6 mt-8 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128">
@@ -31,7 +31,7 @@ const Home = () => {
                         </div>
                     </div>
                 </section>
-                <section className=" dark:text-gray-100">
+                <section className=" text-gray-100">
                     <div className="container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-around">
                         <div className="flex items-center justify-center p-6 mt-8 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128">
                             <img className='rounded-lg' src="https://t4.ftcdn.net/jpg/03/14/06/67/360_F_314066785_uAOxjZqdroS7cliA0AXdpkDMx2HcCpUw.jpg" alt="" />

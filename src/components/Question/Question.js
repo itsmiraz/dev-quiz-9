@@ -28,25 +28,29 @@ const WrongAns = () => toast.error(' Your Answer is Wrong!', {
     theme: "light",
 });
 
-const Question = ({ mainquestion }) => {
+const Question = ({ mainquestion, handleCorrectAns, handleWrongAns }) => {
     const { question, options, correctAnswer } = mainquestion;
 
     const [show, setShow] = useState(false)
 
 
 
+
     const checkRightORWrong = (selectedOption) => {
         if (correctAnswer === selectedOption) {
             RightAns()
+            handleCorrectAns()
         }
         else {
             WrongAns();
+            handleWrongAns()
 
         }
     }
     return (
         <div>
             <div className='text-center font-semibold text-white my-10'>
+
                 <div className='px-10 md:mr-60 md:ml-60 '>
                     <div className='flex items-center justify-between md:px-10 px-2 bg-slate-900 my-4'>
                         <div>
