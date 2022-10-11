@@ -7,7 +7,7 @@ import { useState } from 'react';
 const Navbar = () => {
     const [open, setOpen] = useState(false)
     const routes = [
-        { id: 1, name: 'Home', path: '/' },
+        { id: 1, name: 'Home', path: '/home' },
         { id: 2, name: 'Quiz', path: '/quiz' },
         { id: 3, name: 'Statics', path: '/statics' },
         { id: 4, name: 'Blogs', path: '/blogs' }
