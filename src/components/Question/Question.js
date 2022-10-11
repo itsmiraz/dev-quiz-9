@@ -47,13 +47,17 @@ const Question = ({ mainquestion }) => {
     return (
         <div>
             <div className='text-center font-semibold text-white my-10'>
-                <div className='px-10 mr-60 ml-60  '>
-                    <div className='flex items-center justify-around bg-slate-900 my-4'>
-                        <p className='my-5  '> Question:{question}</p>
-                        <EyeIcon onClick={() => setShow(!show)} className="h-4 w-4 my-0 py-0 text-white" />
+                <div className='px-10 md:mr-60 md:ml-60 '>
+                    <div className='flex items-center justify-between md:px-10 px-2 bg-slate-900 my-4'>
+                        <div>
+                            <p className='my-5  '> Question:{question}</p>
+                        </div>
+                        <div>
+                            <EyeIcon onClick={() => setShow(!show)} className="h-4 w-4 my-0 py-0 text-white" />
 
+                        </div>
                     </div>
-                    <div className='grid grid-cols-2 gap-x-2 gap-y-2 px-10'>
+                    <div className='grid md:grid-cols-2 grid-cols-1 gap-x-2 gap-y-2 md:px-10 px-0'>
                         {
                             options.map(option => <Options
                                 key={option.id}

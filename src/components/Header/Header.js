@@ -18,7 +18,7 @@ const Navbar = () => {
 
 
 
-            <ul className={`md:flex bg-slate-900 w-full text-white text-center md:text-right justify-center md:static duration-300 ease-linear absolute ${open ? 'top-9' : 'top-[-150px]'}`}>
+            <ul className={`md:flex bg-slate-900 w-full text-white text-center md:text-right justify-center md:static duration-300 ease-linear absolute ${open ? 'top-12' : 'top-[-150px]'}`}>
                 {
                     routes.map(route => <Route
                         key={route.id}
