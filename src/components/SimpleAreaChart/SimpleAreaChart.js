@@ -1,7 +1,6 @@
 import React, { useContext } from "react";
-import ReactDOM from "react-dom";
 import {
-    LineChart, Line, CartesianGrid, XAxis, YAxis, Tooltip, ResponsiveContainer, Bar, BarChart, Legend
+    CartesianGrid, XAxis, YAxis, Tooltip, ResponsiveContainer, Bar, BarChart, Legend
 } from "recharts";
 import { SubjectContext } from "../../Layout/Main";
 

@@ -15,9 +15,9 @@ const Subject = ({ subject }) => {
                 <img src={logo} alt="" className="object-cover object-center w-full rounded-md h-72 dark:bg-gray-500" />
                 <div className="mt-6 mb-2 flex items-center justify-between text-xs font-medium tracking-widest uppercase dark:text-violet-400">
                     <span className="block text-xs font-medium tracking-widest uppercase dark:text-slate-900">{name}</span>
-                    <p>Total Quiz: {total}</p>
+                    <p className='dark:text-slate-900'>Total Quiz: {total}</p>
                 </div>
-                <button onClick={handleNavigate} className="bg-gray-800 rounded px-4 items-center flex">
+                <button onClick={handleNavigate} className="bg-red-500 rounded px-4 items-center flex">
                     <span className='mr-1'>Start Quiz </span>
                     <ArrowRightIcon className="h-5 w-5 " /></button>
             </div>
